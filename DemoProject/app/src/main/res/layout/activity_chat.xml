@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.ijuin.demoproject.ChatActivity">
 
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"/>
+
     <com.github.bassaer.chatmessageview.views.ChatView
         android:id="@+id/chatview"
         android:layout_width="match_parent"

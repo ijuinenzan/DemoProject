@@ -9,6 +9,7 @@
     android:gravity="center">
 
     <EditText
+        android:id="@+id/username_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"
@@ -18,6 +19,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <EditText
+        android:id="@+id/password_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/password"
@@ -35,12 +37,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/sign_in"/>
+            android:text="@string/sign_in"
+            android:onClick="signIn"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="@string/sign_up"/>
+            android:text="@string/sign_up"
+            android:onClick="signUp"/>
 
 
     </LinearLayout>
